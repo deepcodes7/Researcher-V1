@@ -77,6 +77,7 @@ async def query_pdf(query: Query):
         query_engine = index.as_query_engine()
     
     response = query_engine.query(query.query)
+    print(f"Response: {response}")
     return {"response": str(response)}
 
 if __name__ == "__main__":
