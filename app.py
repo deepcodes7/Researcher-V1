@@ -49,7 +49,7 @@ index = VectorStoreIndex.from_documents(documents)
 query_engine = index.as_query_engine()
 
 # Initialize FastAPI app
-app = FastAPI(title="PDF Query Chatbot")
+app = FastAPI(title="AI Document Search")
 
 # Set up templates
 templates = Jinja2Templates(directory="templates")
