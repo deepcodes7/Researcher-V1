@@ -1,3 +1,5 @@
+#  This version uses pdfplumber and faster than unstructured in version 2.
+
 import os
 import pdfplumber
 from fastapi import FastAPI, HTTPException, Request
